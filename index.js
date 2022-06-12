@@ -30,6 +30,8 @@ async function fetchData(url) {
     }
 }
 
+fetchData('https://newsdata.io/api/1/news?apikey=pub_8212e5910ab78d635646f20291a789e19497&country=in');
+
 submitBtn.addEventListener('click',()=>{
     URL = `https://newsdata.io/api/1/news?apikey=pub_8212e5910ab78d635646f20291a789e19497`;
     let countryValue = country.value.slice(-2);
